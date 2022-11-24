@@ -1,0 +1,85 @@
+@media(max-width:920px){
+    .container{
+        max-width: 910px;
+        padding: 0 10px;
+        margin: 0 auto;
+    }
+}
+@media(max-width:560px){
+    .container{
+        max-width: 380px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    .about__grid{
+        grid-template-columns: 1fr;
+        padding-bottom: 50px;
+    }
+    .about{
+        padding-bottom: 20px;
+    }
+    .about button{
+        width: 180px;
+    }
+    .about__bottom{
+        display: none;
+        
+    }
+    .about__menu{
+        margin-left: 1px;
+    }
+
+    .about__sm-card{
+        padding-top: 20px;
+        height: 500px;
+        width: 400px;
+        border-radius: 20px 20px 20px 292px;
+        
+    }
+    .construction{
+        padding-top: 30px;
+    }
+    .construction__sm-text{
+        margin-top: 60px;
+    }
+    .construction__grid{
+        grid-template-columns: 1fr;
+        transform: matrix(0 -1, 0, 1, 0,);
+        padding-bottom: 60px;
+    }
+    .construction__content{
+        grid-template-columns: 1fr;
+        padding-top: 50px;
+        row-gap: 60px;
+        justify-content: center;
+    }
+    .about{
+        max-width: 550px;
+        margin: 0 auto;
+        padding: 0 10px;
+        padding-bottom: 60px;
+    }
+    .construction__title{
+        display: none;
+    }
+    .construction__box{
+        width: 300px;
+    }
+    .about__sm-info{
+        column-gap: 12px;
+        font-size: 10px;
+        display: none;
+        
+    }
+    .construction__info img{
+        border-radius: 10px;
+    }
+    .message svg{
+        display: none;
+    }
+    .message__fon{
+        height:200vh;
+
+    }
+    
+}
